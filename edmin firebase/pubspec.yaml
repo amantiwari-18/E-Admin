@@ -1,0 +1,77 @@
+name: edmin
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+    # sdk: flutter
+  agora_rtc_engine: ^6.2.6
+  # permission_handler: ^14.0.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  uuid: ^4.3.3
+  image_picker: ^1.0.7
+  firebase_messaging: ^14.7.10
+  firebase_storage: ^11.6.0
+  animate_do: ^3.3.0
+  # image_cropper: ^5.0.1
+  web: ^0.3.0
+  file_picker: ^6.1.1
+  easy_pdf_viewer: ^1.0.6
+  url_launcher: ^6.2.4
+  fluttertoast: ^8.2.4
+  intl: ^0.19.0
+  table_calendar: ^3.1.0
+  font_awesome_flutter: ^10.7.0
+  dio: ^5.4.1
+  share_plus: ^7.2.2
+  path_provider: ^2.1.2
+  flutter_downloader: ^1.11.6
+  permission_handler: ^11.3.0
+  downloads_path_provider_28: ^0.1.2
+  open_file: ^3.3.2
+  flutter_local_notifications: ^16.3.2
+  rxdart: ^0.27.7
+  amplify_flutter: ^1.7.0
+  amplify_auth_cognito: ^1.7.0
+
+flutter:
+  assets:
+    - assets/aries_logo_auto_6_3_1.png
+    - assets/timthumb.jpg
+    - assets/new-jb69jl-1hxo07.jpg
+
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1

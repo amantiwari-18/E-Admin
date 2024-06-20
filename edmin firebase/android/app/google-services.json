@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "713609039480",
+    "project_id": "aries-eadmin",
+    "storage_bucket": "aries-eadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713609039480:android:4c0c9462b01b9c629c678d",
+        "android_client_info": {
+          "package_name": "com.example.edmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCar_rSW3YVw2Jb5wpwzXGwfp3q8iFlaFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
